@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<libro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="libro.xsd"
+       formato="tapa dura">
+    <titulo>El Farmaceútico</titulo>
+    <autor>Juanma</autor>
+    <paginas>50</paginas>
+    <editorial>SM</editorial>
+    <categoria>Aventuras</categoria>
+    <categoria>Medicina</categoria>
+</libro>

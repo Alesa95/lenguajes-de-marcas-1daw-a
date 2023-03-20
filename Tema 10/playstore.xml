@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE playstore SYSTEM "playstore.dtd">
+
+<playstore> <!-- Hay uno más videojuegos -->
+    <videojuego consola="ps4">  <!-- Atributo consola es obligatorio -->
+        <titulo>Dead Space</titulo>
+        <precio>60€</precio>
+        <pegi>18</pegi>
+        <genero>Horror</genero> <!-- Hay cero o más generos -->
+        <genero>Survival</genero>
+    </videojuego>
+    <videojuego consola="ps5">
+        <titulo>Project Zomboid</titulo>
+        <precio descuento="20%">50€</precio>  <!-- Atributo descuento es opcional -->
+        <pegi>13</pegi>
+        <genero>Supervivencia</genero>
+        <descripcion>Este juego es de supervivencia</descripcion>  <!-- La descripción es opcional -->
+    </videojuego>
+    <videojuego consola="ps5">
+        <titulo>Rust</titulo>
+        <precio descuento="20%">40€</precio>  <!-- Atributo descuento es opcional -->
+        <pegi>18</pegi>
+        <genero>Supervivencia</genero>
+        <descripcion>Este juego ni idea de qué es</descripcion>  <!-- La descripción es opcional -->
+    </videojuego>
+    <videojuego consola="switch">
+        <titulo>Animal Crossing</titulo>
+        <precio descuento="0%">60€</precio>  <!-- Atributo descuento es opcional -->
+        <pegi>7</pegi>
+        <genero>Supervivencia</genero>
+        <descripcion>Este juego vicia mucho</descripcion>  <!-- La descripción es opcional -->
+    </videojuego>
+</playstore>
