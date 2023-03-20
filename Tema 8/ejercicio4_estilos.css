@@ -1,0 +1,21 @@
+.tabla-streamers caption {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: violet;
+}
+
+.tabla-streamers tbody tr:first-child {
+    background-color: purple;
+}
+
+.tabla-streamers tbody tr:nth-child(even) {
+    background-color: pink;
+}
+
+.tabla-streamers tbody tr:nth-child(even):hover {
+    background-color: palevioletred;
+}
+
+.tabla-streamers tbody tr:nth-child(2n+3):hover {
+    background-color: lightgray;
+}

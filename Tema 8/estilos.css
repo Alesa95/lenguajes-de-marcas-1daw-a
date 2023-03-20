@@ -1,0 +1,88 @@
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:focus {
+    /*background-color: yellow;*/
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: orange;
+} 
+
+a:hover {
+    background-color: yellow;
+}
+
+li:first-child {
+    color: blue;
+}
+
+li:last-child {
+    color: red;
+}
+
+li:nth-child(2) {
+    color: green;
+}
+
+li:nth-child(3n+2) {
+    color: yellow;
+    background-color: green;
+}
+
+.lista1 {
+    /*list-style-type:lower-roman;*/
+    list-style-image: url("twitter.png");
+    list-style-position: inside;
+}
+
+.lista2 {
+    list-style-image: url("twitter.png");
+    list-style-position: outside;
+}
+
+.p1 {
+    text-align: center;
+    color: red;
+}
+
+.p2 {
+    text-align: right;
+}
+
+li:hover {
+    background-color: grey;
+}
+
+li:nth-child(even):hover {
+    background-color: blueviolet;
+}
+
+.p3::first-letter {
+    font-size: 2rem;
+}
+
+.p3::first-line {
+    text-transform: uppercase;
+}
+
+.p3::before {
+    content: "INICIO: ";
+}
+
+.p3::after {
+    content: " FIN";
+}
+
+p {
+    background-color: red;
+    padding: 1rem;
+    border: 0.5rem solid black;
+    margin: 2rem;
+}

@@ -1,0 +1,19 @@
+p {
+    background-color: lightgray;
+    font-family: "Lucida Console";
+}
+
+p::before {
+    content: "SINOPSIS:";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 1.5rem;
+}
+
+p::first-line {
+    text-transform: uppercase;
+}
